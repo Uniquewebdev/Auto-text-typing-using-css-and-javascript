@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: fantasy;
+        background: black;
+        color: aliceblue;
+        margin: 100px;
+    }
+</style>
+
+<body>
+    <div class="text">
+        <h1>I Am <span class="auto-text"></span></h1>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-text", {
+            strings: ["<span style='color:red;'>Web Developer. </span>",
+             "<span style='color:cyan;'>App Developer. </span>",
+              "<span style='color:#00b894;'>Video Editor. </span>"],
+            typeSpeed: 10,
+            backSpeed: 10,
+            loop: true
+        })
+    </script>
+</body>
+
+</html>
